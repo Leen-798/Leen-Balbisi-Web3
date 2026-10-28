@@ -1,0 +1,67 @@
+body {
+    background-image: url("../img/cart.jpg");
+    background-size: cover;
+    text-align: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+    list-style: none;
+    margin: 30px;
+}
+
+.ul li {
+    width: 150px;
+    height: 150px;
+    background-color: rgba(216, 112, 147, 0.768);
+    color: rgb(250, 218, 250);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: x-large;
+}
+
+#cart {
+    display: inline-block;
+    margin: 50px;
+    padding: 30px;
+    font-size: x-large;
+    color: purple;
+    background-color: pink;
+}
+
+#show {
+    display: block;
+    margin: 20px auto;
+    padding: 30px;
+    font-size: x-large;
+    background-color: gold;
+    color: purple;
+    cursor: pointer;
+    border-radius: 10px;
+}
+#total{
+    display: block;
+    width: 300px;
+    margin: 70px auto;
+    padding: 30px;
+    font-size: x-large;
+    color: purple;
+    background-color: plum;
+    border-radius: 10px;
+}
+p::selection{
+    background-color: pink;
+    color: rgb(124, 64, 124);
+}
+li::selection{
+    background-color: pink;
+    color: rgb(202, 34, 90);
+}
